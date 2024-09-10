@@ -47,7 +47,7 @@ function useLocalStorage(itemName, initialValue) {
 
   export { useLocalStorage }
 
-//  localStorage.removeItem('TODOS_V1', defaultTodos);
+//  localStorage.removeItem('TODOS_V1');
 
 
 

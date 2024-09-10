@@ -5,7 +5,7 @@ import { TodoItem } from '../TodoItem';
 import { TodosLoading } from '../TodosLoading';
 import { TodosError } from '../TodosError';
 import { EmptyTodos } from '../EmptyTodos';
-import { CreateTodoBuutton } from '../CreateTodoButton';
+import { CreateTodoButton } from '../CreateTodoButton';
 import React from 'react';
 import { Modal } from '../Modal';
 import { TodoForm } from '../TodoForm';
@@ -53,7 +53,7 @@ function AppUI() {
             )}
           </TodoContext.Consumer>
 
-          < CreateTodoBuutton 
+          < CreateTodoButton 
             setOpenModal={setOpenModal} 
           />
 

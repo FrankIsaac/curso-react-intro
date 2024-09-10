@@ -21,7 +21,7 @@ function TodoProvider( {children} ) {
       const searchTodos/*algo raro*/ = todos.filter(
         (todo) => {
           const todoText = todo.text.toLowerCase();
-          const searchText = searchValue.toLocaleLowerCase();
+          const searchText = searchValue.toLowerCase(); //hay cambio;
           return todoText.includes(searchText);
         }
       );
