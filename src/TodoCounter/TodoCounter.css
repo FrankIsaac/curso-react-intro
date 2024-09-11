@@ -6,6 +6,6 @@ h1 {
     font-weight: 400;
   }   
 
-  .negrita {
+  h1 span {
     font-weight: 700;
   }
